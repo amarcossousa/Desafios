@@ -1,5 +1,4 @@
 # Exercicios com if, elif, else. 
-
 """
 Task
 Given an integer, , perform the following conditional actions:
@@ -31,8 +30,8 @@ non-negative integers i < n, print i².
 
 n = int(input(': '))
 
-for x in range(n):
+for i in range(n):
     n += 1
-    x **= 2
-    print(x)
+    i **= 2
+    print(i)
 # Codigo funciona normalmente. Estudar possivel refatoração
