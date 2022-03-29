@@ -31,7 +31,7 @@ non-negative integers i < n, print i².
 n = int(input(': '))
 
 for i in range(n):
-    n += 1
-    i **= 2
-    print(i)
-# Codigo funciona normalmente. Estudar possivel refatoração
+    print(i**2)
+    # i **= 2
+    # print(i)
+# Codigo final
