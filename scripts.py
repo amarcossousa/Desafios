@@ -32,12 +32,12 @@ Task
 The provided code stub reads and integer, , from STDIN. For all 
 non-negative integers i < n, print i²."""
 
-# n = int(input(': '))
+n = int(input(': '))
 
-# for i in range(n):
-#     print(i**2)
-    # i **= 2
-    # print(i)
+for i in range(n):
+    print(i**2)
+    i **= 2
+    print(i)
 # Codigo final
 
 # Exercicio com int e strings
@@ -48,10 +48,10 @@ Without using any string methods, try to print the following:
 Note that "..." represents the consecutive values in between
 """
 
-# n = int(input(': '))
+n = int(input(': '))
 
-# for i in range (1, n+1):
-#     print (i, end="") # Usa a função 'end=""' para organizar o valor em linha
+for i in range (1, n+1):
+    print (i, end="") # Usa a função 'end=""' para organizar o valor em linha
 # # Codigo completo
 
 
