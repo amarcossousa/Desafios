@@ -1,3 +1,4 @@
+
 # Exercicios com if, elif, else. 
 """
 Task
@@ -25,8 +26,7 @@ else:
 """
 Task
 The provided code stub reads and integer, , from STDIN. For all 
-non-negative integers i < n, print i².
-"""
+non-negative integers i < n, print i²."""
 
 n = int(input(': '))
 
@@ -34,5 +34,18 @@ for i in range(n):
     print(i**2)
     # i **= 2
     # print(i)
-    
 # Codigo final
+
+# Exercicio com int e strings
+"""
+The included code stub will read an integer, n, from STDIN.
+Without using any string methods, try to print the following:
+123...n
+Note that "..." represents the consecutive values in between
+"""
+
+n = int(input(': '))
+
+for i in range (1, n+1):
+    print (i, end="") # Usa a função 'end=""' para organizar o valor em linha
+# Codigo completo
