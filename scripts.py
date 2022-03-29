@@ -11,15 +11,19 @@ If n is even and greater than 20, print Not Weird"""
 
 n = int(input(': '))
 
-if n % 2 == 0 and n < 2:
+if n % 2 == 1:
     print('Weird')
 
-elif n % 2 == 1 and n in range(2,  6) or n > 20:
+elif n % 2 == 0 and n in range(2, 6):
     print('Not Weird')
 
-else:
+elif n % 2 == 0 and n in range(6, 21):
     print('Weird')
-# Codigo não funciona em alguns testes no HackerRanck
+
+else:
+    print('Not Weird')
+
+# Codigo com pequena correção. Necessario possivel refatoração
 
 
 # Exercicios com loops
@@ -28,10 +32,10 @@ Task
 The provided code stub reads and integer, , from STDIN. For all 
 non-negative integers i < n, print i²."""
 
-n = int(input(': '))
+# n = int(input(': '))
 
-for i in range(n):
-    print(i**2)
+# for i in range(n):
+#     print(i**2)
     # i **= 2
     # print(i)
 # Codigo final
@@ -44,8 +48,13 @@ Without using any string methods, try to print the following:
 Note that "..." represents the consecutive values in between
 """
 
-n = int(input(': '))
+# n = int(input(': '))
 
-for i in range (1, n+1):
-    print (i, end="") # Usa a função 'end=""' para organizar o valor em linha
-# Codigo completo
+# for i in range (1, n+1):
+#     print (i, end="") # Usa a função 'end=""' para organizar o valor em linha
+# # Codigo completo
+
+
+
+
+
