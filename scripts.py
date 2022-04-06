@@ -82,8 +82,8 @@ def is_leap(year):
     elif year % 100 == 0:
         leap = leap
         return False
-
     return leap
+# Codigo completo sem refatoração 
 
 
 
