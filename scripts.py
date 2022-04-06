@@ -85,18 +85,12 @@ def is_leap(year):
 # Codigo completo sem refatoração 
 
 
-# Commpressão de listas
+# Compressão de listas
 x = int(input(': '))
 y = int(input(': '))
 z = int(input(': '))
 n = int(input(': '))
 
-lista = []
-n = 0
-cond = [x, y, z]
-for cont in range(list(cond)):
-    lista.append(cont)
-    print(lista)
 
 
 
